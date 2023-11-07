@@ -10,9 +10,7 @@
 
 /*Fonts family
 font-family: 'EB Garamond', serif;
-font-family: 'Inter', sans-serif;
-font-family: 'Merriweather', serif;
-font-family: 'Quicksand', sans-serif; */
+font-family: 'Inter', sans-serif;*/
 
 
 /* Mobile*/
@@ -114,6 +112,7 @@ h2{
 
 .texto-quienes-somos{
     font-size: 12px;
+    width: 380px;
 }
 
 .conjunto-llave{
@@ -502,8 +501,8 @@ h6{
 
     .texto-quienes-somos{
         font-size: 14px;
+        width: 100%;
     }
-
 
     /*Main - espacio*/
 
@@ -641,9 +640,12 @@ h6{
 
 
 
+
+
+
 /* Desktop*/
 
-@media screen and (min-width: 1028px) {
+@media screen and (min-width: 1027px) {
 
 
     /*estilos del body*/
@@ -651,6 +653,11 @@ h6{
     main{
         margin-left: 250px;
         margin-right: 250px;
+    }
+    #body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
 
@@ -685,34 +692,28 @@ h6{
     #estancia-pizarro{
         display: flex;
         flex-direction: row;
-        align-items: flex-start;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
         margin-top: 100px;
     }
 
-    .caja-texto-quienes-somos{
-        width: 900px;
-    }
-
-
     h2{
-        color: #615c49;
-        font-family: 'EB Garamond', serif;
         margin-left: 20px;
-        margin-bottom: 20px;
-        text-align: start;
         font-size: 35px;
-        font-variant-caps: small-caps;
     }
 
     .texto-quienes-somos{
         padding: 5px 100px 10px 20px;
         font-size: 16px;
+        width: 800px;
+
     }
 
 
     .foto-cerradura{
         height: 500px;
-        width: 600px;
+        width: 550px;
     }
     
 
@@ -765,12 +766,14 @@ h6{
     .texto-espacio{
         font-size: 16px;
         padding-right: 100px;
+        width: 750px;
     }
 
     .texto-espacio-dos{
         font-size: 16px;
         padding-left: 120px;
         text-align: right;
+        width: 750px;
     }
 
     .alineado-derecha{
@@ -840,6 +843,7 @@ h6{
         font-size: 16px;
         margin-left: 20px;
         padding-right: 650px;
+        width: 1400px;
     }
 
     .servicios{
@@ -852,7 +856,8 @@ h6{
     }
 
     .foto-servicios{
-        height: 320px;
+        width:  100%;
+        padding: 15px;
     }
 
     .caja-servicios{
@@ -876,6 +881,7 @@ h6{
         font-size: 16px;
         text-align: center;
         list-style: none;
+        width: 100%;
     }
 
     /*Main - contacto - izquierda*/
@@ -909,7 +915,7 @@ h6{
     }
 
     .filas{
-        width: 550px;
+        width: 600px;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -978,7 +984,7 @@ h6{
         margin-top: 20px;
         margin-bottom: 30px;
         font-weight: 400;
-
+        width: 550px;
     }
 
     .sello{
@@ -1021,9 +1027,9 @@ h6{
     }
 
     .parrafo-formulario{
-        margin: 30px 50px 10px 50px;
         text-align: center;
         font-size: 16px;
+        width: 550px;
     }
 
     /*Main - Arriba*/
