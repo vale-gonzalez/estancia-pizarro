@@ -545,6 +545,7 @@ h6{
     }
     .parrafo-servicios{
         font-size: 14px;
+        text-align: left;
     }
 
     .titulo-servicios{
@@ -847,6 +848,7 @@ h6{
         margin-left: 20px;
         padding-right: 650px;
         width: 1400px;
+        text-align: left;
     }
 
     .servicios{
