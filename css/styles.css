@@ -98,6 +98,7 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 
@@ -112,7 +113,7 @@ h2{
 
 .texto-quienes-somos{
     font-size: 12px;
-    width: 380px;
+    width: 100%;
 }
 
 .conjunto-llave{
@@ -227,6 +228,7 @@ h5{
 
 .parrafo-servicios{
     font-size: 12px;
+    text-align: center;
 }
 
 .servicios{
@@ -698,6 +700,7 @@ h6{
         margin-top: 100px;
     }
 
+
     h2{
         margin-left: 20px;
         font-size: 35px;
@@ -706,7 +709,7 @@ h6{
     .texto-quienes-somos{
         padding: 5px 100px 10px 20px;
         font-size: 16px;
-        width: 800px;
+        width: 850px;
 
     }
 
